@@ -40,3 +40,19 @@ img {
 .price {
     color: rgb(70, 156, 70);
 }
+
+@media only screen and (max-width:1200px) {
+.container {
+    font-size: 0.9em;
+}
+ul {
+    margin: 1em;
+}
+li {
+    margin: 1em;
+    padding: 1em;
+}
+img {
+    width: 70%;
+}
+}

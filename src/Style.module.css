@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #18191a;
+    font-family: 'Benne', serif;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 3em;
+}
+ul {
+    list-style: none;
+    margin: 3em;
+}
+li {
+    list-style: none;
+    background-color: #242526;
+    border-radius: 15px;
+    margin: 3em;
+    padding: 3em;
+}
+
+img {
+    border-radius: 15px;
+    width: 30%;
+}
+
+.price {
+    color: rgb(70, 156, 70);
+}

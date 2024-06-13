@@ -1,58 +1,60 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #18191a;
-    font-family: 'Benne', serif;
-    color: white;
+  background-color: #18191a;
+  font-family: "Benne", serif;
+  color: white;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 h1 {
-    text-align: center;
-    margin-top: 3em;
+  text-align: center;
+  margin-top: 3em;
 }
+
 ul {
-    list-style: none;
-    margin: 3em;
+  list-style: none;
+  margin: 3em;
 }
+
 li {
-    list-style: none;
-    background-color: #242526;
-    border-radius: 15px;
-    margin: 3em;
-    padding: 3em;
+  list-style: none;
+  background-color: #242526;
+  border-radius: 15px;
+  margin: 3em;
+  padding: 3em;
 }
 
 img {
-    border-radius: 15px;
-    width: 30%;
+  border-radius: 15px;
+  width: 30%;
 }
 
 .price {
-    color: rgb(70, 156, 70);
+  color: rgb(70, 156, 70);
 }
 
-@media only screen and (max-width:1200px) {
-.container {
+@media only screen and (max-width: 1200px) {
+  .container {
     font-size: 0.9em;
-}
-ul {
+  }
+  ul {
     margin: 1em;
-}
-li {
+  }
+  li {
     margin: 1em;
     padding: 1em;
-}
-img {
+  }
+  img {
     width: 70%;
-}
+  }
 }
